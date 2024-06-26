@@ -1,5 +1,1 @@
-# crea-web
-
-Landing page de C.Re.A en comunidad.
-
-En construcción.
+![image](https://github.com/creaencomunidad/crea-maint-page/blob/main/public/assets/logo_azul.png)

@@ -1,0 +1,19 @@
+---
+import SectionTitle from "@/components/SectionTitle.astro";
+import type { ContactData } from "@/config/landing.interface";
+
+interface Props {
+  data: ContactData;
+}
+
+const { data } = Astro.props;
+---
+
+<section id="contacto" class="flex flex-col mb-60 gap-y-28 pt-16">
+  <SectionTitle>
+    {data.title}
+  </SectionTitle>
+  <div class="grid md:grid-cols-2 gap-y-10 justify-items-center">
+    <span>Informacion de contacto....</span>
+  </div>
+</section>

@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "title": "C.Re.A en comunidad",
+    "description": "Centro Fisioterapeutico con enfoque en comunidad, donde la rehabilitación se realiza acorde a la patología y actividades de la vida diaria del/la usuario/a.",
+    "lang": "es",
+    "charset": "UTF-8",
+    "ldJson": {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "C.Re.A en comunidad",
+      "description": "Centro Fisioterapeutico con enfoque en comunidad, donde la rehabilitación se realiza acorde a la patología y actividades de la vida diaria del/la usuario/a.",
+      "url": "https://www.creaencomunidad.com/",
+      "logo": "./public/favicon.svg",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "creaencomunidadcol@gmail.com",
+        "contactType": "Client Service"
+      },
+      "sameAs": [
+        "https://www.facebook.com/CREAencomunidad/",
+        "https://www.instagram.com/creaencomunidad",
+        "https://www.tiktok.com/@creaencomunidad"
+      ]
+    }
+  },
+  "headerData": {
+    "logo": "C.Re.A",
+    "links": [
+      { "label": "Quienes somos", "href": "#quienes-somos" },
+      { "label": "Servicios", "href": "#servicios" },
+      { "label": "Contacto", "href": "#contacto" },
+      { "label": "Ubicacion", "href": "#ubicacion" },
+      { "label": "Cursos", "href": "#cursos" }
+    ]
+  },
+  "heroData": {
+    "title": "Centro de Rehabilitacion Aplicada",
+    "subTitle": "Rehabilitación acorde a la patología y actividades de la vida diaria del/la usuario/a.",
+    "primaryCta": "Quienes somos",
+    "secondaryCta": "Contacto",
+    "highlightedTitle": "en comunidad"
+  },
+  "locationData": {
+    "title": "Ubicacion"
+  },
+  "contactData": {
+    "title": "Informacion de contacto"
+  },
+  "servicesData": {
+    "title": "Servicios que ofrece C.Re.A en comunidad:",
+    "services": [
+      {
+        "title": "Professional Templates",
+        "icon": "DevIcon",
+        "description": "Our templates are crafted by experienced web designers, ensuring a modern and polished look for your site. From typography to element design, every detail is carefully considered to convey a professional image."
+      },
+      {
+        "title": "Integrated Accessibility",
+        "icon": "PlanetIcon",
+        "description": "We care about web accessibility and have integrated features to ensure your site is accessible to all users, including those with visual or motor disabilities. Our templates comply with WCAG accessibility standards to provide an inclusive experience for everyone."
+      },
+      {
+        "title": "SEO-Optimized",
+        "icon": "FileIcon",
+        "description": "We understand the importance of your site being visible in search engines. That's why our templates are optimized for SEO, meaning they are structured and coded to be easily indexed by Google and other search engines, helping to improve your ranking in search results."
+      },
+      {
+        "title": "Easy Set up",
+        "icon": "ConfigIcon",
+        "description": "With our templates, you don't need to be a web development expert to have an impressive site. They are easy to set up and customize, with intuitive options that allow you to change colors, fonts, page layout, and more with just a few clicks. Make your site stand out hassle-free!"
+      }
+    ]
+  },
+  "aboutData": {
+    "title": "    Quienes somos.",
+    "adventajes": [
+      {
+        "title": "Take Your Website to Perfection",
+        "description": "Our intuitive customization options empower you to create a website that stands out and resonates with your audience like never before. Say goodbye to cookie-cutter designs and hello to a website that truly reflects your vision and personality.",
+        "img": "whiteLogo.webp",
+        "imageAlt": "this is an image about the template service adventajes",
+        "checks": ["Colors", "Fonts", "Layout"]
+      }
+    ]
+  },
+  "coursesData": {
+    "title": "Cursos",
+    "tiers": [
+      {
+        "title": "Curso #1",
+        "description": "De alejo para el mundo",
+        "price": {
+          "amount": "$99.000"
+        },
+        "features": ["Tema 1", "Tema 2", "Tema 3", "Tema 4", "Tema 5"],
+        "cta": "Conocer mas"
+      },
+      {
+        "title": "Curso #2",
+        "description": "De alejo para el mundo y del mundo para alejo",
+        "price": {
+          "amount": "$50k",
+          "period": "/asesoria"
+        },
+        "features": ["Tema 1", "Tema 2", "Tema 3", "Tema 4", "Tema 5"],
+        "cta": "Conocer mas"
+      },
+      {
+        "title": "Enterprise",
+        "description": "Best for large scale uses and extended redistribution rights.",
+        "price": {
+          "amount": "$59",
+          "period": "/month"
+        },
+        "features": ["Tema 1", "Tema 2", "Tema 3", "Tema 4", "Tema 5"],
+        "cta": "Get started"
+      }
+    ]
+  },
+  "footerData": {
+    "logo": "C.Re.A en comunidad",
+    "description": "Discover the Beauty of the Cosmos: Explore the Infinite Wonders of Space with Us",
+    "links": [
+      { "label": "Quienes somos", "href": "#quienes-somos" },
+      { "label": "Servicios", "href": "#servicios" },
+      { "label": "Contacto", "href": "#contacto" },
+      { "label": "Ubicacion", "href": "#ubicacion" },
+      { "label": "Cursos", "href": "#cursos" }
+    ],
+    "socials": [
+      {
+        "icon": "FacebookIcon",
+        "href": "https://www.facebook.com/CREAencomunidad/"
+      },
+      {
+        "icon": "InstagramIcon",
+        "href": "https://www.instagram.com/creaencomunidad"
+      },
+      { "icon": "TwitterIcon", "href": "/" },
+      { "icon": "GithubIcon", "href": "/" }
+    ]
+  }
+}
