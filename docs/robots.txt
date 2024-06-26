@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sta.creaencomunidad.com/sitemap-index.xml

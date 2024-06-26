@@ -6,8 +6,9 @@ import robotsTxt from "astro-robots-txt";
 
 // https://astro.build/config
 export default defineConfig({
+  outDir: "./docs",
   site: import.meta.env.DEV
     ? "http://localhost:4321"
-    : "https://www.creaencomunidad.com",
+    : "https://sta.creaencomunidad.com",
   integrations: [tailwind(), sitemap(), robotsTxt()],
 });
