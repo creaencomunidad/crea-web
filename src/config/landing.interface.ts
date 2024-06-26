@@ -4,7 +4,6 @@ export interface LandingPageData {
   heroData: HeroData;
   servicesData: ServicesData;
   aboutData: AboutData;
-  brandsData: BrandsData;
   coursesData: CoursesData;
   footerData: FooterData;
 
@@ -46,7 +45,7 @@ export interface Service {
 
 export interface AboutData {
   title: string;
-  adventajes: AboutPiece[];
+  aboutPieces: AboutPiece[];
 }
 
 export interface AboutPiece {

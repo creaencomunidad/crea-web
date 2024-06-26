@@ -16,8 +16,8 @@ const { data } = Astro.props;
   </SectionTitle>
   <div>
     {
-      data.adventajes.map((adventaje, idx) => (
-        <SideBySide data={adventaje} reversed={(idx + 1) % 2 === 0} />
+      data.aboutPieces.map((aboutPiece, idx) => (
+        <SideBySide data={aboutPiece} reversed={(idx + 1) % 2 === 0} />
       ))
     }
   </div>
