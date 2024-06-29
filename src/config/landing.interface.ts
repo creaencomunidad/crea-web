@@ -9,6 +9,7 @@ export interface LandingPageData {
 
   locationData: LocationData;
   contactData: ContactData;
+  teamData: TeamData;
 }
 
 export interface HeaderData {
@@ -37,6 +38,22 @@ export interface ContactData {
   title: string;
 }
 
+export interface Education {
+  degree: string;
+  institution: string;
+}
+
+export interface TeamMember {
+  name: string;
+  img: string;
+  imageAlt: string;
+  vc: Education[];
+}
+
+export interface TeamData {
+  title: string;
+  teamMembers: TeamMember[];
+}
 export interface Service {
   title: string;
   icon: string;

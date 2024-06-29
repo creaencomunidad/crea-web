@@ -1,0 +1,93 @@
+---
+import SectionTitle from "@/components/SectionTitle.astro";
+import { ASSET_PREFIX } from "@/config/constants";
+import type { TeamData } from "@/config/landing.interface";
+
+interface Props {
+  data: TeamData;
+}
+
+const { data } = Astro.props;
+---
+
+<section id="equipo" class="flex flex-col mb-60 w-screen gap-y-28 pt-16 p-4">
+  <SectionTitle>
+    {data.title}
+  </SectionTitle>
+  <div class="profile-container gap-y-10 justify-items-center">
+    <div class="profile-left">
+      <img
+        src={ASSET_PREFIX + data.teamMembers[0].img}
+        alt={data.teamMembers[0].imageAlt}
+      />
+    </div>
+
+    <div class="profile-right gap-y-5">
+      <h2>{data.teamMembers[0].name}</h2>
+      {
+        data.teamMembers[0].vc.map((item) => {
+          return (
+            <div class="flex flex-col flex-wrap items-center">
+              <h3>{item.degree}</h3>
+              <h5>{item.institution}</h5>
+            </div>
+          );
+        })
+      }
+    </div>
+  </div>
+</section>
+
+<style>
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h5 {
+    font-size: 16px;
+  }
+
+  .profile-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .profile-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .profile-right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .img {
+    width: 300px; /* initial width */
+  }
+
+  /* Media query for small screens */
+  @media only screen and (max-width: 768px) {
+    .profile-container {
+      flex-direction: column;
+    }
+    .profile-left {
+      padding: 0px;
+    }
+    .profile-right {
+      padding: 0px;
+    }
+
+    .img {
+      width: 400px;
+    }
+  }
+</style>

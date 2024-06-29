@@ -8,7 +8,7 @@
       "@context": "http://schema.org",
       "@type": "Organization",
       "name": "C.Re.A en comunidad",
-      "description": "Centro Fisioterapeutico con enfoque en comunidad, donde la rehabilitación se realiza acorde a la patología y actividades de la vida diaria del/la usuario/a.",
+      "description": "Centro Fisioterapéutico con enfoque en comunidad, donde la rehabilitación se realiza acorde a la patología y actividades de la vida diaria del/la usuario/a.",
       "url": "https://www.creaencomunidad.com/",
       "logo": "./public/favicon.svg",
       "contactPoint": {
@@ -29,8 +29,7 @@
       { "label": "Quienes somos", "href": "#quienes-somos" },
       { "label": "Servicios", "href": "#servicios" },
       { "label": "Contacto", "href": "#contacto" },
-      { "label": "Ubicacion", "href": "#ubicacion" },
-      { "label": "Cursos", "href": "#cursos" }
+      { "label": "Ubicación", "href": "#ubicacion" }
     ]
   },
   "heroData": {
@@ -41,45 +40,64 @@
     "highlightedTitle": "en comunidad"
   },
   "locationData": {
-    "title": "Ubicacion"
+    "title": "Ubicación"
   },
   "contactData": {
-    "title": "Informacion de contacto"
+    "title": "Contacto"
+  },
+  "teamData": {
+    "title": "Equipo C.Re.A",
+    "teamMembers": [
+      {
+        "name": "Alejandro Grisales Holguín",
+        "img": "alejoPhoto.png",
+        "imageAlt": "Foto de Alejandro grisales",
+        "vc": [
+          {
+            "degree": "Doctorando en osteopatía",
+            "institution": "Escuela de osteopatía de Madrid sede México."
+          },
+          {
+            "degree": "Master en osteopatía",
+            "institution": "Escuela de osteopatía de Madrid sede México."
+          },
+          {
+            "degree": "Fisioterapeuta",
+            "institution": "IU Escuela Nacional del Deporte"
+          }
+        ]
+      }
+    ]
   },
   "servicesData": {
-    "title": "Servicios que ofrece C.Re.A en comunidad:",
+    "title": "Servicios",
     "services": [
       {
-        "title": "Professional Templates",
+        "title": "Osteopatía",
         "icon": "DevIcon",
-        "description": "Our templates are crafted by experienced web designers, ensuring a modern and polished look for your site. From typography to element design, every detail is carefully considered to convey a professional image."
+        "description": ""
       },
       {
-        "title": "Integrated Accessibility",
+        "title": "Fisioterapia",
         "icon": "PlanetIcon",
-        "description": "We care about web accessibility and have integrated features to ensure your site is accessible to all users, including those with visual or motor disabilities. Our templates comply with WCAG accessibility standards to provide an inclusive experience for everyone."
+        "description": ""
       },
       {
-        "title": "SEO-Optimized",
+        "title": "Talleres grupales ",
         "icon": "FileIcon",
-        "description": "We understand the importance of your site being visible in search engines. That's why our templates are optimized for SEO, meaning they are structured and coded to be easily indexed by Google and other search engines, helping to improve your ranking in search results."
-      },
-      {
-        "title": "Easy Set up",
-        "icon": "ConfigIcon",
-        "description": "With our templates, you don't need to be a web development expert to have an impressive site. They are easy to set up and customize, with intuitive options that allow you to change colors, fonts, page layout, and more with just a few clicks. Make your site stand out hassle-free!"
+        "description": ""
       }
     ]
   },
   "aboutData": {
-    "title": "    Quienes somos.",
+    "title": "Quienes somos.",
     "aboutPieces": [
       {
-        "title": "Take Your Website to Perfection",
-        "description": "Our intuitive customization options empower you to create a website that stands out and resonates with your audience like never before. Say goodbye to cookie-cutter designs and hello to a website that truly reflects your vision and personality.",
+        "title": "C.Re.A en comunidad",
+        "description": "Centro de Fisioterapia especializado en Osteopatía, especialidad en terapia manual que aunque el nombre hace alusión al tratamiento de los huesos con ella se pueden recuperar todo tipo de lesiones, dolores, patologías, desde una fractura, pasando por hernias discales, fibromialgias, hasta accidentes cerebro vasculares.",
         "img": "whiteLogo.webp",
-        "imageAlt": "this is an image about the template service adventajes",
-        "checks": ["Colors", "Fonts", "Layout"]
+        "imageAlt": "C.Re.A logo blanco",
+        "checks": []
       }
     ]
   },
@@ -124,8 +142,7 @@
       { "label": "Quienes somos", "href": "#quienes-somos" },
       { "label": "Servicios", "href": "#servicios" },
       { "label": "Contacto", "href": "#contacto" },
-      { "label": "Ubicacion", "href": "#ubicacion" },
-      { "label": "Cursos", "href": "#cursos" }
+      { "label": "Ubicacion", "href": "#ubicacion" }
     ],
     "socials": [
       {
@@ -136,8 +153,14 @@
         "icon": "InstagramIcon",
         "href": "https://www.instagram.com/creaencomunidad"
       },
-      { "icon": "TwitterIcon", "href": "/" },
-      { "icon": "GithubIcon", "href": "/" }
+      {
+        "icon": "TiktokIcon",
+        "href": "https://www.tiktok.com/@creaencomunidad"
+      },
+      {
+        "icon": "WhatsappIcon",
+        "href": "https://api.whatsapp.com/send?phone=573167813601&text=Hola"
+      }
     ]
   }
 }

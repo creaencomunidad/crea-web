@@ -9,11 +9,75 @@ interface Props {
 const { data } = Astro.props;
 ---
 
-<section id="contacto" class="flex flex-col mb-60 gap-y-28 pt-16">
+<section
+  id="contacto"
+  class="flex flex-col w-screen items-evenly mb-618gap-y-28 pt-16"
+>
   <SectionTitle>
     {data.title}
   </SectionTitle>
-  <div class="grid md:grid-cols-2 gap-y-10 justify-items-center">
-    <span>Informacion de contacto....</span>
+
+  <div class="flex flex-row flex-wrap gap-y-10 justify-evenly">
+    <div class="flex flex-row justify-evenly">
+      <iframe
+        width="400"
+        height="500"
+        scrolling="no"
+        src="https://www.instagram.com/p/C7U7FaAsM5h/embed"
+        frameborder="0"></iframe>
+    </div>
+    <div class="flex flex-col justify-center gap-y-5">
+      <div>
+        <span><b>Telefono:</b></span>
+        <br />
+        <span> (+57) 3167813601 </span>
+      </div>
+      <div>
+        <span><b>Correo:</b> </span>
+        <br />
+        <span> creaencomunidadcol@gmail.com </span>
+      </div>
+
+      <div>
+        <span><b>Horario:</b></span>
+        <br />
+        <span>Lunes a viernes: 8am - 6pm</span>
+        <br />
+        <span>Sabado: 8pm - 1pm</span>
+      </div>
+      <span><b>Redes sociales:</b></span>
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/CREAencomunidad/">Facebook</a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/creaencomunidad">Instagram</a>
+        </li>
+        <li><a href="https://www.tiktok.com/@creaencomunidad">TikTok</a></li>
+        <li>
+          <a href="https://api.whatsapp.com/send?phone=573167813601&text=Hola"
+            >Whatsapp</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="flex flex-row justify-evenly">
+      <iframe
+        width="400"
+        height="500"
+        scrolling="no"
+        src="https://www.instagram.com/p/C7P-5B3tnuI/embed"
+        frameborder="0"></iframe>
+    </div>
   </div>
 </section>
+
+<style>
+  iframe {
+    padding: 10px;
+    border-radius: 15px;
+  }
+  li {
+    padding-bottom: 5px;
+  }
+</style>

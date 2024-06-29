@@ -1,5 +1,9 @@
 ---
 import type { Meta } from "@/config/landing.interface";
+import Footer from "@/sections/Footer.astro";
+import Header from "@/sections/Header.astro";
+import WhatsAppFloat from "@/sections/WhatsAppFloat.astro";
+import { getLandingData } from "@/services/data.service";
 import "@fontsource-variable/rubik";
 
 interface Props {
@@ -9,6 +13,8 @@ interface Props {
 const { meta } = Astro.props;
 
 const ldJson = JSON.stringify(meta.ldJson);
+
+const data = await getLandingData();
 ---
 
 <!doctype html>
@@ -26,8 +32,11 @@ const ldJson = JSON.stringify(meta.ldJson);
     <script type="application/ld+json" set:html={ldJson} />
   </head>
   <body class="background">
+    <Header data={data.headerData} />
+    <WhatsAppFloat />
     <!-- <Background /> -->
     <slot />
+    <Footer data={data.footerData} />
   </body>
 </html>
 
